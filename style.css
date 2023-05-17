@@ -31,11 +31,19 @@ main {
 .text-area:focus {
   outline: none;
 }
+
+.boneco {
+  padding: 55px;
+  margin-left: 60px;
+  position: relative;
+  display: flex;
+  opacity: 25%;
+  border: none;
+}
+
 .mensagem {
   background: white;
-  background-image: url(boneco.png);
-  background-repeat: no-repeat;
-  border: none;
+   border: none;
   border-radius: 24px;
   color: #0a3871;
   margin-left: 98px;
@@ -81,7 +89,7 @@ main {
   cursor: pointer;
   height: 67px;
   margin-left: 108px;
-  margin-top: 402px;
+  margin-top: 10px;
   position: absolute;
   width: 336px;
 }
